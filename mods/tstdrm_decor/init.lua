@@ -1,4 +1,4 @@
-minetest.register_node("tstdrm_decor:lantern", { -- Borrowed from WintersKnight94
+minetest.register_node("tstdrm_decor:lantern", { 
 	description = "Lantern",
 		tiles = {
 		"tstdrm_chrome.png",
