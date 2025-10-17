@@ -1,4 +1,14 @@
 minetest.register_craft({
+	output = "tstdrm_core:stone",
+	recipe = {
+		{"tstdrm_core:crumbled_stone", "tstdrm_core:crumbled_stone"},
+		{"tstdrm_core:crumbled_stone", "tstdrm_core:crumbled_stone"},
+	}
+})
+
+
+
+minetest.register_craft({
 	output = "tstdrm_core:wood 4",
 	recipe = {
 		{"tstdrm_core:tree"},
